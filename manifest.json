@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Key Activator",
+  "version": "1.0",
+  "description": " Go to the key activation pages.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
